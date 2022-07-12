@@ -1,0 +1,29 @@
+美国疫情措施等
+https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%BE%8E%E5%9C%8B%E7%96%AB%E6%83%85
+
+美国疫情数据
+https://covid.cdc.gov/covid-data-tracker/#trends_totaldeaths
+
+中国2018-2022 GDP(季度)
+https://data.stats.gov.cn/
+
+中国2018-2022 GDP 环比(季度)
+https://data.stats.gov.cn/
+
+中国2018-2022 失业率(月度)
+https://data.stats.gov.cn/
+
+中国2018-2022 CPI(月度)
+https://data.stats.gov.cn/
+
+美国2018-2022失业率(月表)
+https://www.multpl.com/unemployment/table/by-month
+
+美国GDP数据
+https://fred.stlouisfed.org/series/GDP
+
+综合评价指标权重方法汇总
+https://zhuanlan.zhihu.com/p/342901550
+
+美国 CPI 数据
+https://www.usinflationcalculator.com/inflation/consumer-price-index-and-annual-percent-changes-from-1913-to-2008/

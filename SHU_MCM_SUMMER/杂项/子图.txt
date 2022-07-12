@@ -1,0 +1,23 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import re
+from matplotlib.ticker import MultipleLocator
+
+all = pd.read_csv(r'C:\Users\Cheems\Nutstore\1\SHU_MCM\data\integrated covid.csv')
+china,america,england,japan = all[all["COUNTRY_NAME"]=="China"],all[all["COUNTRY_NAME"]=="United States of America"],all[all["COUNTRY_NAME"]=="The United Kingdom"],all[all["COUNTRY_NAME"]=="Japan"]
+for i in range(524):
+    all.loc[i,"ISO_START_DATE"]=re.sub('T16:00:00.000Z','',all.loc[i,"ISO_START_DATE"])
+grouped=all[['DAILY_CASES','COUNTRY_NAME','ISO_START_DATE']]
+grouped1 = grouped[grouped['ISO_START_DATE']<='2020-03-29']
+fig = plt.figure();ax = fig.add_subplot(1,1,1)
+fig = plt.figure(figsize=(20,10));ax2 = fig.add_subplot(1,1,1)
+ax2=fig.add_subplot(1,1,1)
+ax2.plot(grouped1[grouped1['COUNTRY_NAME']=='China']['ISO_START_DATE'],grouped1[grouped1['COUNTRY_NAME']=='China']['ra'],label='China')
+ax2.plot(grouped1[grouped1['COUNTRY_NAME']=='Japan']['ISO_START_DATE'],grouped1[grouped1['COUNTRY_NAME']=='Japan']['ra'],label='Japan')
+ax2.plot(grouped1[grouped1['COUNTRY_NAME']=='The United Kingdom']['ISO_START_DATE'],grouped1[grouped1['COUNTRY_NAME']=='The United Kingdom']['ra'],label='U.K')
+ax2.plot(grouped1[grouped1['COUNTRY_NAME']=='United States of America']['ISO_START_DATE'],grouped1[grouped1['COUNTRY_NAME']=='United States of America']['ra'],label='U.S.A')
+plt.show()
+ax.xaxis.set_major_locator(MultipleLocator(3))
+plt.show()

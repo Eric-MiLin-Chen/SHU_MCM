@@ -1,0 +1,1 @@
+https://ourworldindata.org/explorers/coronavirus-data-explorer?facet=none&pickerSort=desc&pickerMetric=population&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=~CHN
