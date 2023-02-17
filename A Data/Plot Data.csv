@@ -1,0 +1,37 @@
+PlotID,Block,Precipitation_treatment,Plant_community
+111,1,Ambient,G+G
+121,1,Cool season drought,G+G
+131,1,Warm season drought,G+G
+211,2,Ambient,G+G
+221,2,Cool season drought,G+G
+231,2,Warm season drought,G+G
+311,3,Ambient,G+G
+321,3,Cool season drought,G+G
+331,3,Warm season drought,G+G
+411,4,Ambient,G+G
+421,4,Cool season drought,G+G
+431,4,Warm season drought,G+G
+511,5,Ambient,G+G
+521,5,Cool season drought,G+G
+531,5,Warm season drought,G+G
+611,6,Ambient,G+G
+621,6,Cool season drought,G+G
+631,6,Warm season drought,G+G
+112,1,Ambient,G+E
+122,1,Cool season drought,G+E
+132,1,Warm season drought,G+E
+212,2,Ambient,G+E
+222,2,Cool season drought,G+E
+232,2,Warm season drought,G+E
+312,3,Ambient,G+E
+322,3,Cool season drought,G+E
+332,3,Warm season drought,G+E
+412,4,Ambient,G+E
+422,4,Cool season drought,G+E
+432,4,Warm season drought,G+E
+512,5,Ambient,G+E
+522,5,Cool season drought,G+E
+532,5,Warm season drought,G+E
+612,6,Ambient,G+E
+622,6,Cool season drought,G+E
+632,6,Warm season drought,G+E
